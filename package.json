@@ -1,0 +1,9 @@
+{
+  "name": "green-the-dinosaur - movingCode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:flaChang/moving-dinosaur.git",
+  "author": "flaChang <zza46585@163.com>",
+  "license": "MIT"
+}
