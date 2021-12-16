@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<style id="demo2"></style>
+<div id="demo1"></div>
+<div id="buttons">
+    <button id="btnStop">暂停</button>
+    <button id="btnPlay">播放</button>
+    <button id="btnSlow">慢速</button>
+    <button id="btnMid">中速</button>
+    <button id="btnFast">快速</button>
+</div>
+
+<style>#buttons {
+        right: 0;
+        top: 0;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    #buttons>button{
+        margin-bottom: 20px;
+        padding: 4px 8px;
+    }
+    #demo2 {
+        display: none;
+    }
+
+    #demo1 {
+        position: fixed;
+        height: 40vh;
+        overflow-y: auto;   /*不影响自动下拉*/
+        top: 0;
+        left: 0;
+        width: 100%;
+        /*对于绝对定位，一定要写width*/
+
+    }
+
+    #demo1::-webkit-scrollbar {
+        display: none;
+    }
+
+    #html {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+    }</style>
+<div id="html">
+    <div class="skin-top">
+        <div class="horn"></div>
+        <div class="eye-left"></div>
+        <div class="eye-right"></div>
+        <div class="mouth"></div>
+        <div class="teeth1"></div>
+        <div class="teeth2"></div>
+        <div class="teeth3"></div>
+        <div class="teeth4"></div>
+        <div class="teeth5"></div>
+        <div class="teeth6"></div>
+        <div class="teeth7"></div>
+        <div class="teeth8"></div>
+    </div>
+    <div class="skin-bottom">
+        <div class="belly"></div>
+    </div>
+</div>
+
+<script src="/test.e98b79dd.js"></script>
+</body>
+</html>

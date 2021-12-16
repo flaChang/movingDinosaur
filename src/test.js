@@ -18,7 +18,6 @@ const player = {
     init: () => {                                              //初始化
         player.ui.demo1.innerText = string.substr(0, player.n)
         player.ui.demo2.innerHTML = string.substr(0, player.n)   //同时以文本的形式和html的形式展示标签
-
         player.bindEvents()
         player.play()
     },
